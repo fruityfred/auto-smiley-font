@@ -25,16 +25,17 @@ class ff_smileys {
 	
 	private static $smileysRegExp = array(
 		'>:\-?\)'   => 'evil',
-		':\-?\)' => 'smile',
-		':\-?D'  => 'happy',
-		':\-?\('  => 'sad',
-		":'\("    => 'crying',
-		';\-?\)'  => 'wink',
-		':\-?p'  => 'tongue',
-		'<3'     => 'heart',
-		':\-?\|' => 'neutral',
-		':\-/'  => 'wondering',
-		':\-?O'  => 'shocked',
+		':\-?\)'    => 'smile',
+		'=\)'       => 'smile',
+		':\-?D'     => 'happy',
+		':\-?\('    => 'sad',
+		":'\("      => 'crying',
+		';\-?\)'    => 'wink',
+		':\-?p'     => 'tongue',
+		'<3'        => 'heart',
+		':\-?\|'    => 'neutral',
+		':\-/'      => 'wondering',
+		':\-?O'     => 'shocked',
 		':\-?[\$s]' => 'confused',
 		'8\-?[\)D]' => 'cool'
 	);
