@@ -43,7 +43,7 @@ class ff_smileys {
 		$count = 0;
 		foreach (self::$smileysRegExp as $code => $name) {
 			$text = preg_replace(
-				'#(\W)(' . $code . ')([^"])#i',
+				'#(\W)(' . $code . ')([^"])?#i',
 				'$1<i title="' . __(self::$smileysRegExp[$code], 'ff-auto-smiley-font') . ' $2" class="icon-' . self::$smileysRegExp[$code] . '"></i>$3',
 				$text,
 				-1,
